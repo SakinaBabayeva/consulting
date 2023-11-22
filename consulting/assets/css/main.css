@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: end;
+}
+
+#ourServices {
+  width: 100%;
+  height: 700px;
+  background-image: url(/assets/images/h1_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ourServices .div .ourServicesdiv {
+  display: flex;
+}
+#ourServices .div .ourServicesdiv .redline {
+  background-color: red;
+  width: 40px;
+  height: 2px;
+}
+#ourServices .div .ourServicesdiv p {
+  color: red;
+}
+#ourServices .div .ourServicesbestdiv h1 {
+  color: black;
+  font-size: 50px;
+}
+#ourServices .div .ourServicesbestdiv #btn {
+  background-color: hotpink;
+  color: white;
+}
